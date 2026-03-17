@@ -1,2 +1,2 @@
 # Data-Pipeline
-showcasing a data project ive done~
+will showcase some data projects ive done here soon!
