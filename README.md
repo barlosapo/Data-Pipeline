@@ -196,17 +196,6 @@ This entire system runs at zero cost:
 At one reading every 5 minutes, a full year of data consumes roughly 6 MB — well within free tier limits.
 
 ---
-
-## Roadmap
-
-- [ ] `weather_history` table for 7-day logging with downloadable export (XML / TXT)
-- [ ] Barometer calibration (pending COM port resolution)
-- [ ] Wind rose chart on dashboard
-- [ ] Upgrade ingestion to WeatherLink Live API for cleaner data access
-- [ ] Generalize pusher into a reusable package for arbitrary station types
-
----
-
 ## License
 
 MIT
