@@ -8,7 +8,7 @@ All on free-tier infrastructure.
 - Reads live sensor data from a Davis Vantage Pro 2 weather station every few minutes
 - Parses the station's HTML output and extracts temperature, humidity, wind speed, wind gust, dewpoint, rain totals, heat index, wind chill, and THW index
 - Pushes the parsed data to a Supabase (PostgreSQL) backend via REST API
-- Displays a live auto-refreshing dashboard hosted on GitHub Pages — no server required
+- Displays a live auto-refreshing dashboard hosted on GitHub Pages, no server required
 - Logs a rolling wind history for trend analysis
 
 ---
