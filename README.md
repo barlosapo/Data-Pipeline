@@ -1,6 +1,7 @@
 # Live Weather Station Dashboard
 
-A full-stack IoT data pipeline that ingests real-time weather data from a Davis Vantage Pro 2 station, pushes it to a cloud database, and serves a live public dashboard — all on free-tier infrastructure.
+A full-stack IoT data pipeline that ingests real-time weather data from a Davis Vantage Pro 2 station, pushes it to a cloud database, and serves a live public dashboard.
+All on free-tier infrastructure.
 ---
 ## What it does
 
