@@ -4,6 +4,7 @@ A full-stack IoT data pipeline that ingests real-time weather data from a Davis 
 All on free-tier infrastructure.
 ---
 Thank you stranger for checking out my project.
+Made this primarily because i couldnt upgrade to the latest version of WeatherLink from Davis so went down a rabbit hole of ideas and figured its a cool little project to show case my data knowledge. 
 
 ## What it does
 
