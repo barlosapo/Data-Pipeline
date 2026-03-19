@@ -181,7 +181,7 @@ The pipeline is station-agnostic beyond the parser layer. To use a different sta
 | Ambient Weather / Ecowitt | Replace pusher with a small Flask server that receives the station's POST |
 | Any station with a public API | Poll the API instead of reading a local file |
 
-Everything from Supabase onward — the schema, the frontend, the GitHub Pages hosting — stays identical regardless of station.
+Everything from Supabase onward, the schema, the frontend, the GitHub Pages hosting, stays identical regardless of station.
 
 ---
 
@@ -195,7 +195,8 @@ This entire system runs at zero cost:
 | Supabase | Unlimited API requests | Unlimited |
 | GitHub Pages | Static hosting | Unlimited |
 
-At one reading every 5 minutes, a full year of data consumes roughly 6 MB — well within free tier limits.
+At one reading every 5 minutes, a full year of data consumes roughly 6 MB.
+Well within free tier limits.
 
 ---
 ## License
