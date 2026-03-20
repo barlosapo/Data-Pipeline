@@ -120,10 +120,10 @@ No build step, no framework, no server.
 
 ---
 
-## Database schema
+## Database tables
 
 ```sql
--- Live reading (single row, always upserted)
+-- storing my weather station data columns
 CREATE TABLE weather_current (
   id           INTEGER PRIMARY KEY DEFAULT 1,
   temperature  TEXT,
@@ -145,7 +145,9 @@ CREATE TABLE weather_current (
   updated_at   TIMESTAMPTZ DEFAULT NOW()
 );
 
--- Rolling wind history (pruned automatically)
+-- Table for sotring wind data
+-- For some odd reason the Weather Station only provided 10-min wind average in a .gif file
+-- Decided to just calculate it using the wind_speed reading and downloading it every 5 minutes, takes an average every 10 and resets with fresh data
 CREATE TABLE weather_wind_log (
   id         BIGSERIAL PRIMARY KEY,
   wind_speed TEXT,
@@ -155,7 +157,7 @@ CREATE TABLE weather_wind_log (
 
 ---
 
-## Running locally
+## Running locally beacause security limits (headache)
 
 ### Prerequisites
 
@@ -185,7 +187,7 @@ Schedule with Windows Task Scheduler or cron to run every 5 minutes.
 
 ## Adapting to other stations
 
-The pipeline is station-agnostic beyond the parser layer. To use a different station:
+The pipeline is aimed to work with most station beyond the parser layer. To use a different station:
 
 | Station type | What to change |
 |---|---|
@@ -194,7 +196,7 @@ The pipeline is station-agnostic beyond the parser layer. To use a different sta
 | Ambient Weather / Ecowitt | Replace pusher with a small Flask server that receives the station's POST |
 | Any station with a public API | Poll the API instead of reading a local file |
 
-Everything from Supabase onward, the schema, the frontend, the GitHub Pages hosting, stays identical regardless of station.
+Everything from Supabase onward, the schema, the frontend, the GitHub Pages hosting, stays identical regardless of station. Of course feel free to modify as you wish. 
 
 ---
 
@@ -208,8 +210,7 @@ This entire system runs at zero cost:
 | Supabase | Unlimited API requests | Unlimited |
 | GitHub Pages | Static hosting | Unlimited |
 
-At one reading every 5 minutes, a full year of data consumes roughly 6 MB.
-Well within free tier limits.
+At one reading every 5 minutes, a full year of data consumes roughly 6 MB so WELL within the limits! 
 
 ---
 ## License
