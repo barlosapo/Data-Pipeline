@@ -7,7 +7,7 @@ Thank you stranger for checking out my project.
 
 This is a project i had to do at work, removed any private data and folder paths. 
 
-Cleraed to implement for other folks with a weather station and are unable to link to a 3rd party site or youre curious to implement your own and manage your data!
+Cleared to implement for other folks with a weather station and are unable to link to a 3rd party site or youre curious to implement your own and manage your data!
 
 To any experts out there feel free to provide feedback always looking to improve my skillset!
 
