@@ -15,7 +15,7 @@ Back end was originally done in Python but wanted to experiment with Supabase so
 
 Front end was all done using claude! :)  (i plan on redoing it once i get into front end in my spare time)
 
-## What it does
+## The stack
 
 - Reads live sensor data from a Davis Vantage Pro 2 weather station every few minutes
 - Parses the station's HTML output and extracts temperature, humidity, wind speed, wind gust, dewpoint, rain totals, heat index, wind chill, and THW index
