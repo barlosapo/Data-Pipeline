@@ -4,10 +4,14 @@ A full-stack IoT data pipeline that ingests real-time weather data from a Davis 
 All on free-tier infrastructure.
 ---
 Thank you stranger for checking out my project.
-Made this primarily because i couldnt upgrade to the latest version of WeatherLink from Davis so went down a rabbit hole of ideas and figured its a cool little project to show case my data knowledge. 
+
+This is a project i had to do at work, removed any private data and folder paths. 
+
+Cleraed to implement for other folks with a weather station and are unable to link to a 3rd party site or youre curious to implement your own and manage your data!
 
 To any experts out there feel free to provide feedback always looking to improve my skillset!
-Front end was all done by Claude! :)
+
+Back end was originally done in Python but had a need for data storage and ended up going with Supabase to store and recall any data i need. Front end was all done using claude! :)
 
 ## What it does
 
