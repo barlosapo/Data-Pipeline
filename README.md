@@ -15,7 +15,7 @@ Back end was originally done in Python and just had files downloaded as a CSV in
 
 Front end was all done using claude! :)  (i plan on redoing it once i get into front end in my spare time)
 
-And yes, i know Weather Link V2 does all this but i couldnt use that .-.
+And yes, i know Weather Link V2 does all this but i did not have the budget for that so this was my plan.
 
 ## The stack
 
