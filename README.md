@@ -2,7 +2,6 @@
 
 A full-stack IoT data pipeline that ingests real-time weather data from a Davis Vantage Pro 2 station, pushes it to a cloud database, and serves a live public dashboard.
 All on free-tier infrastructure. 
-
 Using a simliar version of this at work but i will be mainting that one for any updates i find, if you're curious or have a question feel free to reach out. 
 ---
 Thank you stranger for checking out my project.
